@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(0, 0%, 93%);
+}
+
+p {
+  color: hsl(0, 0%, 27%);
+}
+
+/* navbar */
+/* .wrap {
+    display: inline-block;
+    position: relative;
+} */
+/* .wrap img + .nav-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chair {
+  width: 100%; */
+.bgc-hero1 {
+  height: 500px;
+  background-image: url("images/desktop-image-hero-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.bgc-hero2 {
+  height: 500px;
+  background-image: url("images/desktop-image-hero-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.bgc-hero3 {
+  height: 500px;
+  background-image: url("images/desktop-image-hero-3.jpg");
+  background-repeat: no-repeat;
+}
+
+.nav-section {
+  padding-top: 3%;
+  padding-left: 8%;
+}
+
+.navbar {
+  vertical-align: middle;
+}
+
+.room {
+  padding-bottom: 7.78px;
+}
+
+/* upper section text */
+
+.top-text {
+  margin: 70px 100px;
+  text-align: justify;
+}
+
+.heading-text {
+  font-size: 15px;
+}
+
+.main-headings {
+  padding-bottom: 2%;
+}
+
+/* carousel */
+.active-text {
+  display: block;
+  visibility: visible;
+}
+
+.inactive-text {
+  display: none;
+  visibility: hidden;
+}
+
+.icon {
+  background-color: black;
+  width: 105px;
+  height: 80px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-arrow {
+  position: relative;
+  right: 64px;
+}
+
+.right-arrow {
+  position: relative;
+  right: 64px;
+}
+
+.arrow {
+  align-content: center;
+  align-self: center;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+/* bottom section */
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width:980px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #bgc {
+    width: 500px;
+  }
+
+.top-text {
+  text-align: left;
+  margin: 20px 20px;
+}
+.left-arrow {
+  bottom: 508px;
+  left: 325px;
+}
+.right-arrow {
+  bottom: 623px;
+  left: 395px;
+}
+}
