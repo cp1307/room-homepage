@@ -37,9 +37,6 @@ function carousel(current, next) {
 
 }
 
-
-
-$(window).resize(function() {
   var win = $(window).width();
   console.log(win);
   if(win <= 992)
@@ -48,4 +45,8 @@ $(window).resize(function() {
     $(".col-7").removeClass("col-7");
     $(".col-5").removeClass("col-5");
   }
-})
+  else {
+    $(".row").addClass("row");
+    $(".col-7").addClass("col-7");
+    $(".col-5").addClass("col-5");
+  }
